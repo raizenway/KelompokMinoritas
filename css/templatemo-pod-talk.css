@@ -835,7 +835,7 @@ main {
 
 .team-info {
   background-color: var(--white-color);
-  position: absolute;
+  position: relative;
   bottom: 0;
   right: 0;
   left: 0;
