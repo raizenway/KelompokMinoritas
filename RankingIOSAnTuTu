@@ -1,0 +1,232 @@
+[
+    {
+        "id": 1,
+        "IOS_Device": "1iPad Pro 6 (12.9-inch) (8+256)",
+        "total_skor": "1428931"
+    },
+    {
+        "id": 2,
+        "IOS_Device": "2iPad Pro 6 (11-inch) (8+128)",
+        "total_skor": "1295288"
+    },
+    {
+        "id": 3,
+        "IOS_Device": "3iPad Pro 5 (12.9-inch) (8+128)",
+        "total_skor": "1209363"
+    },
+    {
+        "id": 4,
+        "IOS_Device": "4iPad Pro 5 (11-inch) (8+128)",
+        "total_skor": "1191354"
+    },
+    {
+        "id": 5,
+        "IOS_Device": "5iPad Air 5 (8+64)",
+        "total_skor": "1089981"
+    },
+    {
+        "id": 6,
+        "IOS_Device": "6iPhone 14 Pro (6+256)",
+        "total_skor": "952830"
+    },
+    {
+        "id": 7,
+        "IOS_Device": "7iPhone 14 Pro Max (6+256)",
+        "total_skor": "949130"
+    },
+    {
+        "id": 8,
+        "IOS_Device": "8iPhone 13 Pro (6+1024)",
+        "total_skor": "860513"
+    },
+    {
+        "id": 9,
+        "IOS_Device": "9iPhone 13 Pro Max (6+1024)",
+        "total_skor": "857637"
+    },
+    {
+        "id": 10,
+        "IOS_Device": "10iPad Pro 3 (12.9-inch) (4+256)",
+        "total_skor": "849590"
+    },
+    {
+        "id": 11,
+        "IOS_Device": "11iPhone 14 Plus (6+128)",
+        "total_skor": "833008"
+    },
+    {
+        "id": 12,
+        "IOS_Device": "12iPhone 14 (6+128)",
+        "total_skor": "829706"
+    },
+    {
+        "id": 13,
+        "IOS_Device": "13iPad Pro 4 (12.9-inch) (6+128)",
+        "total_skor": "823825"
+    },
+    {
+        "id": 14,
+        "IOS_Device": "14iPad Pro 4 (11-inch) (6+128)",
+        "total_skor": "817411"
+    },
+    {
+        "id": 15,
+        "IOS_Device": "15iPad Pro 3 (11-inch) (4+64)",
+        "total_skor": "813111"
+    },
+    {
+        "id": 16,
+        "IOS_Device": "16iPad mini 6 (4+64)",
+        "total_skor": "802431"
+    },
+    {
+        "id": 17,
+        "IOS_Device": "17iPhone 13 (4+128)",
+        "total_skor": "797858"
+    },
+    {
+        "id": 18,
+        "IOS_Device": "18iPhone 13 mini (4+128)",
+        "total_skor": "797224"
+    },
+    {
+        "id": 19,
+        "IOS_Device": "19iPad Air 4 (4+64)",
+        "total_skor": "760109"
+    },
+    {
+        "id": 20,
+        "IOS_Device": "20iPhone 12 Pro Max (6+256)",
+        "total_skor": "742435"
+    },
+    {
+        "id": 21,
+        "IOS_Device": "21iPhone SE3 (4+64)",
+        "total_skor": "730888"
+    },
+    {
+        "id": 22,
+        "IOS_Device": "22iPhone 12 Pro (6+128)",
+        "total_skor": "718509"
+    },
+    {
+        "id": 23,
+        "IOS_Device": "23iPhone 12 (4+128)",
+        "total_skor": "718465"
+    },
+    {
+        "id": 24,
+        "IOS_Device": "24iPad 10 (4+64)",
+        "total_skor": "709993"
+    },
+    {
+        "id": 25,
+        "IOS_Device": "25iPhone 12 mini (4+128)",
+        "total_skor": "705892"
+    },
+    {
+        "id": 26,
+        "IOS_Device": "26iPhone 11 Pro Max (4+256)",
+        "total_skor": "654952"
+    },
+    {
+        "id": 27,
+        "IOS_Device": "27iPhone 11 Pro (4+256)",
+        "total_skor": "649676"
+    },
+    {
+        "id": 28,
+        "IOS_Device": "28iPad 9 (3+64)",
+        "total_skor": "645479"
+    },
+    {
+        "id": 29,
+        "IOS_Device": "29iPhone 11 (4+128)",
+        "total_skor": "628390"
+    },
+    {
+        "id": 30,
+        "IOS_Device": "30iPhone SE2 (3+128)",
+        "total_skor": "591888"
+    },
+    {
+        "id": 31,
+        "IOS_Device": "31iPad Air 3 (3+64)",
+        "total_skor": "582973"
+    },
+    {
+        "id": 32,
+        "IOS_Device": "32iPad mini 5 (3+64)",
+        "total_skor": "562445"
+    },
+    {
+        "id": 33,
+        "IOS_Device": "33iPad 8 (3+128)",
+        "total_skor": "558991"
+    },
+    {
+        "id": 34,
+        "IOS_Device": "34iPhone XS Max (4+256)",
+        "total_skor": "544819"
+    },
+    {
+        "id": 35,
+        "IOS_Device": "35iPhone XS (4+256)",
+        "total_skor": "544160"
+    },
+    {
+        "id": 36,
+        "IOS_Device": "36iPhone XR (3+128)",
+        "total_skor": "521065"
+    },
+    {
+        "id": 37,
+        "IOS_Device": "37iPad Pro 2 (10.5-inch) (4+256)",
+        "total_skor": "482113"
+    },
+    {
+        "id": 38,
+        "IOS_Device": "38iPhone X (3+64)",
+        "total_skor": "407442"
+    },
+    {
+        "id": 39,
+        "IOS_Device": "39iPhone 8 Plus (3+64)",
+        "total_skor": "400387"
+    },
+    {
+        "id": 40,
+        "IOS_Device": "40iPhone 8 (2+64)",
+        "total_skor": "389087"
+    },
+    {
+        "id": 41,
+        "IOS_Device": "41iPad 7 (3+128)",
+        "total_skor": "347394"
+    },
+    {
+        "id": 42,
+        "IOS_Device": "42iPhone 7 Plus (3+128)",
+        "total_skor": "326682"
+    },
+    {
+        "id": 43,
+        "IOS_Device": "43iPhone 7 (2+128)",
+        "total_skor": "319819"
+    },
+    {
+        "id": 44,
+        "IOS_Device": "44iPhone SE (2+64)",
+        "total_skor": "242500"
+    },
+    {
+        "id": 45,
+        "IOS_Device": "45iPhone 6s Plus (2+64)",
+        "total_skor": "239907"
+    },
+    {
+        "id": 46,
+        "IOS_Device": "46iPhone 6s (2+64)",
+        "total_skor": "237837"
+    }
+]
