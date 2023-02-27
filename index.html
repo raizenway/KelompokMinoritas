@@ -428,60 +428,76 @@ https://templatemo.com/tm-584-pod-talk
                     </div>
 
                 </div>
-                <title>Contoh Memuat Data JSON ke HTML</title>
+                <!DOCTYPE html>
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>Contoh Memuat Data JSON ke HTML</title>
                 </head>
-<<<<<<< HEAD
-                
-=======
-
->>>>>>> 07b9fdf6791788f9b70cfc61753f1ae1e0a7728d
                 <body>
                     <h1>Android</h1>
                     <table>
-                        <tr></tr>
-                            <th>Device dan Total Skor </th>
-                        </tr>
-
+                        <thead>
+                            <tr>
+                                <th>Device</th>
+                                <th>Tipe SOC</th>
+                                <th>Total Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="data-chipset">
+                        </tbody>
                     </table>
-                    <table id="data-mahasiswa"></table>
+                    <h1>TOP NETFLIX SHOW</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ranking</th>
+                                <th>Judul</th>
+                                <th>Tomato Meter</th>
+                            </tr>
+                        </thead>
+                        <tbody id="data-netflix">
+                        </tbody>
+                    </table>
+                
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
                     <script>
-                        $(document).ready(function () {
-          
-                            // FETCHING DATA FROM JSON FILE
-                            $.getJSON("AI_Chipset.json", 
-                                    function (data) {
-                                var student = '';
-          
-                                // ITERATING THROUGH OBJECTS
-                                $.each(data, function (key, value) {
-          
-                                    //CONSTRUCTION OF ROWS HAVING
-                                    // DATA FROM JSON OBJECT
-                                    student += '<tr>';
-                                    student += '<td>' + 
-                                        value.id + '</td>';
-          
-                                    student += '<td>' + 
-                                        value.TipeSOC + '</td>';
-          
-                                    student += '<td>' + 
-                                        value.TotalScore + '</td>';
-          
-          
-                                    student += '</tr>';
+                        $(document).ready(function() {
+                            // Load data AI_Chipset
+                            $.getJSON("AI_Chipset.json", function(data) {
+                                var rows = '';
+                                $.each(data, function(index, item) {
+                                    rows += '<tr>';
+                                    rows += '<td>' + item.id + '</td>';
+                                    rows += '<td>' + item.TipeSOC + '</td>';
+                                    rows += '<td>' + item.TotalScore + '</td>';
+                                    rows += '</tr>';
                                 });
-                                  
-                                //INSERTING ROWS INTO TABLE 
-                                $('#data-mahasiswa').append(student);
+                                $('#data-chipset').html(rows);
+                            });
+                
+                            // Load data HasilScrappingTomato
+                            $.getJSON("HasilScrappingTomato.json", function(data) {
+                                var rows = '';
+                                $.each(data, function(index, item) {
+                                    rows += '<tr>';
+                                    rows += '<td>' + item.Ranking + '</td>';
+                                    rows += '<td>' + item.Judul + '</td>';
+                                    rows += '<td>' + item.TomatoMeter + '</td>';
+                                    rows += '</tr>';
+                                });
+                                $('#data-netflix').html(rows);
                             });
                         });
                     </script>
+                </body>
+                </html>
+                
+
 
             </div>
 
         </section>
-
-
 
         <footer class="site-footer">
             <div class="container">
@@ -584,9 +600,3 @@ https://templatemo.com/tm-584-pod-talk
         <script src="js/custom.js"></script>
 
 </body>
-
-<<<<<<< HEAD
-</html>
-=======
-</html>
->>>>>>> 07b9fdf6791788f9b70cfc61753f1ae1e0a7728d

@@ -13,22 +13,18 @@ imgMAL = driver.find_elements(By.XPATH,"//img[contains(@class,'lazyloaded')]")
 
 i = 1
 src = []
-"""for anime in konten:
+for anime in konten:
     print(anime.text)
     for img in anime.find_elements(By.TAG_NAME, "img"):
         print(img.get_attribute("data-src"))
         urllib.request.urlretrieve(img.get_attribute("data-src"), str(i)+".png")
-        i = i+1"""
+        i = i+1
 
-for anime in konten:
+"""for anime in konten:
     print(anime.text)
     for img in anime.find_elements(By.XPATH,"//img[contains(@class,'lazyloaded')]"):
         src.append(img.get_attribute('data-src'))
         urllib.request.urlretrieve(img.get_attribute("data-src"), str(i)+".png")
-        i = i+1
-        
-#for img in imgMAL:
-    #src.append(img.get_attribute('data-src'))
+        i = i+1"""
 
-#print(src[0])
 driver.quit()
